@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    background-color: rgba(5, 1, 5, 0.945); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(5, 1,5,0,945), rgb(176, 17, 207));
+    
+
+}
+
+
+/*New styling*/
+header h1{
+    color: rgb(160, 16, 153);
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header h1 span{
+    color: rgb(17, 35, 138);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.carousel {
+  position: relative;
+  width: 70%;
+  height: 375px;
+  overflow: hidden;
+  background-color: #cdcdcd;
+  margin: auto;
+  margin-top: 70px;
+}
+  .carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 375px;
+    border: 1px solid #2e2e2e;
+    
+  }
+    .active {
+      left: 0;
+      transition: all 0.3s ease-out;
+    }
+    div {height: 100%;}
+
+  
+
+    img{
+        width: 100%;
+    }
+
+    .word{
+        width: 70%;
+        height: 200px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .word p{
+        font-size: 1.5rem;
+        color: red;
+        text-align: center;
+        overflow: hidden;
+
+    }
+
+    .search{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+      
+    }
+    
+     input{
+        font-family: inherit;
+        font-size: 1.5rem;
+        outline: 0;
+        border: ipx solid;
+        border-radius: 15px;
+        height: 50px;
+        background-color: blue;
+        margin: 0 10px 0 10px;
+        text-align: center;
+
+    }
+    
+    button{
+        width:200px ;
+        height: 50px;
+        outline: 0;
+        border: ipx solid;
+        border-radius: 15px;
+        height: 50px;
+        background-color: purple;
+        cursor: pointer;
+    }
+
+    .search h1{
+        color:purple ;
+        text-decoration: solid;
+    }
+    .container{
+        margin-top: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .compare{
+        width: 99%;
+        height: 70%;
+        background-color: rgba(73, 63, 36, 0.192);
+        border: 1px none;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    footer a {
+        
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: goldenrod;
+    }
+    footer{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+
+
+/*new end*/
+
+.Hero1{
+    color: goldenrod;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 7px solid goldenrod;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: blue;
+    
+}
+
+.Hero2{
+    text-align: center;
+    color: goldenrod;
+    width: 49%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 7px solid goldenrod;
+    text-transform: capitalize;
+    background-color: blue;
+}
+
+
+@media screen and (min-width:180px) and (max-width:1400px) {
+
+    
+
+   
+}
+
+@media screen and (min-width:180px) and (max-width:950px) {
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}
+
+@media screen and (min-width:850px) and (max-width:1150px) {
+
+    input{
+        width:200px ;
+        height: 40px;
+    }
+    
+    button{
+        width:200px ;
+        height: 40px;
+        
+    }
+
+
+    
+}
+@media screen and (min-width:600px) and (max-width:850px) {
+
+    input{
+        width:150px ;
+        height: 30px;
+    }
+    
+    button{
+        width:150px ;
+        height: 30px;
+        
+    }
+
+
+    
+}
+
+
+
+@media screen and (min-width:180px) and (max-width:600px) {
+
+    input{
+        width:70% ;
+        height: 30px;
+        
+    }
+    .search1{
+        margin-top: 80px;
+    }
+    .search2{
+        margin-top: 30px;
+    }
+    button{
+        width:70% ;
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    .search{
+    display: block;   
+    text-align: center;
+}
+
+.search h1{
+    margin-top: 30px;
+}
+    
+}
+
+@media screen and (min-width:180px) and (max-width:420px) {
+
+    input{
+        width:70% ;
+        height: 30px;
+    }
+    .search1{
+        margin-top: 70px;
+    }
+    .search2{
+        margin-top: 30px;
+    }
+    button{
+        width:70% ;
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    .search{
+    display: block;   
+    text-align: center;
+}
+
+.search h1{
+    margin-top: 30px;
+}
+
+.word{
+    margin-bottom: 100px;
+}
+    
+}
+
+
+@media screen and (min-width:180px) and (max-width:350px) {
+ 
+    .search1{
+        margin-top: 150px;
+    }
+}
+
+
+@media screen and (min-width:180px) and (max-width:270px) {
+ 
+    .search1{
+        margin-top: 250px;
+    }
+}
+
+@media screen and (min-width:180px) and (max-width:222px) {
+ 
+    .search1{
+        margin-top: 300px;
+    }
+}
+@media screen and (min-width:180px) and (max-width:630px) {
+ 
+    .compare{
+        display: block;
+    }
+
+    .Hero1,.Hero2{
+        width: 100%;
+    }
+
+    .Hero2{
+        margin-top: 50px;
+    }
+}

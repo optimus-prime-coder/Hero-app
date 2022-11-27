@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuperHero app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Stats<span>War</span></h1>
+  </header>
+
+  <div class="carousel">
+    <div class="carousel-item">
+      <div class="red"><img
+          src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmF0bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="First slide"></div>
+    </div>
+    <div class="carousel-item">
+      <div class="green"> <img
+          src="https://p4.wallpaperbetter.com/wallpaper/315/952/991/thanos-infinity-gauntlet-wallpaper-preview.jpg"
+          alt="Second slide"></div>
+    </div>
+    <div class="carousel-item">
+      <div class="yellow">
+        <div class="carousel-item">
+          <img src="https://p4.wallpaperbetter.com/wallpaper/315/952/991/thanos-infinity-gauntlet-wallpaper-preview.jpg"
+            alt="Second slide">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="violet"> <img
+            src="https://p4.wallpaperbetter.com/wallpaper/315/952/991/thanos-infinity-gauntlet-wallpaper-preview.jpg"
+            alt="Second slide"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="word">
+    <p>Since the birth of earth, we've always compared the superheroes whom has saved the world from crimes and evils. Now let's check their statistics with "Truth and Justice".</p>
+  </div>
+
+  <div class="search">
+    <input type="text" class="search1"  placeholder="input superhero name" id="searchInput1" onkeyup="search()">
+    <h1>VS</h1>
+    <input type="text" class="search2"  placeholder="input superhero name" id="searchInput2">
+    <button id="searchbtn">SEARCH</button>
+  </div>
+  <div id="searchList"></div>
+  <div class="container">
+    <div class="compare">
+
+
+      <div class="Hero1">
+        <dive id="name1"></dive>
+        <div id="heroImg"></div>
+        <div id="herostats"></div>
+      </div>
+
+
+
+      <div class="Hero2">
+        <div id="heroImg2"></div>
+        <div id="herostats2"></div>
+      </div>
+
+
+      <div id="biography2"></div>
+
+
+
+    </div>
+  </div>
+
+
+  <footer>
+    <a href="https://wa.me/+23408084335803">optimus&copy;</a>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
